@@ -1,0 +1,29 @@
+h2,
+p {
+    font-family: sans-serif
+}
+
+.city-circle {
+    fill: #5ee3f2;
+    stroke: gray;
+    stroke-width: 0.2;
+}
+
+.city-label {
+    font: 11px sans-serif;
+    text-anchor: middle;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: auto;
+    font: 12px sans-serif;
+    background: lightpink;
+    border: 1px;
+    border-radius: 8px;
+    pointer-events: none;
+    align-items: center;
+    align-content: center;
+}
